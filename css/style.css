@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 200px;
+    font-weight: 600;
+    text-align: center;
+    color: #021335;
+    opacity: 0.05;
+    margin: 0;
+}
+
+.persona {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 88px 0;
+    margin-top: 120px;
+}
+
+.persona::after {
+    content: "User Persona";
+    position: absolute;
+    top: -35px;
+    width: 100%;
+    height: 143px;
+    font-weight: 600;
+    font-size: 200px;
+    text-align: center;
+    color: #021335;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1157px;
+    background-color: #fff;
+    border-radius: 36.1573px;
+    margin: 0 auto;
+    padding: 66px 72px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chair::after {
+    content: url(../img/157\ 1.png);
+    position: absolute;
+    bottom: -440px;
+    right: 30px;
+}
+
+.column-img {
+    width: 326px;
+}
+
+.img {
+    border-radius: 21.6944px;
+    overflow: hidden;
+}
+
+.infor {
+    width: 211px;
+    margin-top: 26px;
+}
+
+.row-infor {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 11.5703px;
+    color: #021335;
+}
+
+.about {
+    font-size: 11.5703px;
+    color: #717886;
+}
+
+.column {
+    width: 290px;
+}
+
+.problems, .needs, .pain-points {
+    margin-top: 29px;
+} 
+
+.column-title {
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 11.5703px;
+    color: #021335;
+}
+
+.text {
+    font-size: 11.5703px;
+    line-height: 22px;
+    color: #717886;
+}
+
+.problems-text {
+    font-size: 11.5703px;
+    line-height: 22px;
+}
+
+.uncoun {
+    padding-left: 16px;
+    margin: 0;
+}
+
+.uncoun li {
+    margin-top: 10px;
+}
+
+.problems {
+    padding: 25px 29px 18px 20px;
+    color: #fff;
+    background: #FF5216;
+    opacity: 0.9;
+    border-radius: 21.6944px;
+}
+
+.footer {
+    width: 838px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 11.5703px;
+    color: #021335;
+    margin-top: 36px;
+}
+
+.span {
+    font-size: 10.1241px;
+    color: #717886;
+}
+
+.slider input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 257.44px;
+    height: 6.51px;
+    border-radius: 7.23147px;
+    background-color: #ffeee8;
+    outline: none;
+}
+.slider input::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #FF5216;
+    position: relative;
+}
